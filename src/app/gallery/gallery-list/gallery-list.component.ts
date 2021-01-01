@@ -12,21 +12,14 @@ import { Gallery} from "../../gallery";
         </div>
       </div>
     </section>
-
+    
     <section class="section">
       <div class="container">
-        <div class="columns is-multiline">
-          <div class="column is-2" *ngFor="let gallery of galleryList">
-            <div class="card">
-              <div class="card-content">
-                <img src="{{gallery.img}}" alt="{{gallery.name}}">
-              </div>
-            </div>
-          </div>
-        </div>
+        <div class="elfsight-app-bf12a196-7128-4cba-8c62-7a2b4a7f827e"></div>
       </div>
     </section>
     
+   
   `,
   styles: [`
     .hero {

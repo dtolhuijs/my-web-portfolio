@@ -3,11 +3,11 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-header',
   template: `
-    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+    <nav class="navbar is-light" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item">
-          D'art
-        </a>
+        <span class="navbar-item">
+          <img src="../../../../assets/images/my-logo.png">
+        </span>
         
         <!--------- menu --------->
         <div class="navbar-menu">
@@ -22,7 +22,10 @@ import { Component, OnInit } from '@angular/core';
       </div>
     </nav>
   `,
-  styles: [
+  styles: [`
+      .navbar-item img {
+        max-height: 3rem;
+    }`
   ]
 })
 export class HeaderComponent implements OnInit {
