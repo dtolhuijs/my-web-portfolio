@@ -5,6 +5,14 @@ import {YoutubeService} from "../../core/services/youtube.service";
 @Component({
   selector: 'app-video-list',
   template: `
+    <section class="hero is-light is-bold is-medium">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">Checkout my YouTube channel!</h1>
+        </div>
+      </div>
+    </section>
+    
       <section class="section">
         <div class="container">
           <div class="columns is-multiline">

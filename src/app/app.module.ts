@@ -13,7 +13,7 @@ import {CoreModule} from "./core/core.module";
   declarations: [
     AppComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

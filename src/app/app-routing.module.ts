@@ -24,7 +24,7 @@ const routes: Routes = [
   {
     path: 'videos',
     loadChildren:  () => import('./videos/videos.module').then(m => m.VideosModule),
-  }
+  },
 ];
 
 @NgModule({

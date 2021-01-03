@@ -5,7 +5,7 @@ import { Gallery} from "../../gallery";
 @Component({
   selector: 'app-gallery-list',
   template: `
-    <section class="hero is-light is-bold">
+    <section class="hero is-light is-bold is-medium">
       <div class="hero-body">
         <div class="container">
           <h1 class="title">My Artwork</h1>

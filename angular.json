@@ -106,6 +106,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "my-web-porfolio"
+    }
+  },
+  "defaultProject": "my-web-porfolio",
+  "cli": {
+    "analytics": "bf0863b5-3a89-4da4-8a8d-d4efd14d8387"
+  }
 }

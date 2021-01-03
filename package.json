@@ -20,6 +20,7 @@
     "@angular/router": "~10.1.6",
     "@angular/youtube-player": "^11.0.3",
     "bulma": "^0.9.1",
+    "instafeed.js": "^1.4.1",
     "ngx-spinner": "^10.0.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
